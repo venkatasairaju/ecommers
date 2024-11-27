@@ -1,0 +1,126 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+      /* border: 1px solid red;  */
+}
+.navbar{
+    background-color: #d4b174;
+}
+.navbar-brand{
+   width: 10%;
+}
+.nav-link{
+    color: white !important;
+    font-weight: bold;
+    font-size: 20px;
+    transition: font-size 0.15s ;
+
+}
+.nav-link:hover{
+    font-size: 25px;
+    
+}
+/* home section */
+.bgimg{
+background-image: url("https://img.freepik.com/free-photo/variety-vegetables-rustic-bucket_114579-19964.jpg?t=st=1732266148~exp=1732269748~hmac=cc179924a0e652517fdedce3ae5d1d5408c5e2ce1a577ebc210efd3302f651b6&w=900");
+width: 100vw;
+height: 70vh;
+object-fit: cover;
+object-position: center;
+}
+.heading{
+    color: white;
+    text-shadow: 1px 2px 2px black;
+    font-size: 50px;
+}
+.hbtn{
+    font-weight: bold !important;
+}
+.fa-bars{
+    color: white;
+}
+/* about section*/
+.mainhead{
+    color: green;
+    font-size: 45px;
+}
+.hist{
+    color:  #d4b174;
+    text-decoration: underline 1px solid gold;
+}
+.apara{
+    color: green;
+    line-height: 30px;
+}
+/* .d-block{
+    aspect-ratio: 3/2;
+    width: 100%;
+} 
+
+/* product styling*/
+.card-title{
+    color:  #089a40;
+    text-shadow: 1px 1px 1px  #d3d334;
+    text-align: center;
+}
+.card-text{
+    color: green;
+    text-align: center;
+}
+.card img{
+    aspect-ratio: 3/3;
+    width: 100%;
+   
+} 
+.add{
+    margin-left: 25%;
+}
+/* payment*/
+#basic-addon1{
+    background-color: #d4b174;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+#basic-addon1:hover{
+    background-color: white;
+    color:  #d4b174;
+    border: 1px solid  #d4b174;
+}
+
+/*contact*/
+.form-label{
+    color: #d4b174;
+    font-weight: bold;
+}
+
+/* footer*/
+.footer{
+    background-color:  #d4b174;
+
+}
+.fcontent h6{
+    color: white;
+    text-decoration: underline 2px solid #fff;
+    transition: color 0.15s, text-decoration 0.15s;
+}
+.fcontent h6:hover{
+    text-decoration: underline 2px solid black;
+    color: black;
+}
+.fcontent p{
+    color: white;
+    transition: color 0.15s;
+}
+.fcontent p:hover{
+    color: black;
+}
+.ficons{
+    color: #b9512e;
+    font-size: 30px;
+}
+.ficons .ic:hover{
+    color: white;
+    transform: rotate(180deg);
+}
